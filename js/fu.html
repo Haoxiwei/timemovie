@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id=div></div>
+</body>
+<script>
+    var div = document.getElementById("div");
+    for(var i = 0 ; i < 50 ; i++){
+        var num1 = Math.floor(Math.random()*255);
+        var num2 = Math.floor(Math.random()*255);
+        var num3 = Math.floor(Math.random()*255);
+        var size = Math.floor(Math.random()*200+50);
+        console.log(size);
+        var p = document.createElement("p");
+        p.innerText = "福"
+        p.style.color = "rgb("+num1+","+num2+","+num3+")";
+        p.style.fontSize = size + "px";
+        div.appendChild(p);
+    }
+</script>
+</html>s

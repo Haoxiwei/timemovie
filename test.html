@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /*.box1{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            animation: xianshi 3s infinite alternate;
+        }
+        @keyframes xianshi {
+            from{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+            }
+            to{
+                             width: 200px;
+                             height: 200px;
+                             background-color: yellow;
+                         }
+        }*/
+        
+        body{
+            background-image: url(nav-img/1.jpg);
+        }
+        .box1 {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url(nav-img/hx-small.jpg) no-repeat top right ;
+            animation :hx 5s 3 alternate;
+            transition: width 3s, height 3s ,transform 3s;
+        }
+        .box1:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        @keyframes hx {
+            from{
+                width: 200px;
+                height: 200px;
+            }
+            to{
+                top: 100px;
+                left: 400px;
+             
+            }
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: 0;
+            right: 66px;
+            background: url(nav-img/wj-small.png) no-repeat center ;
+            animation :wj 5s   3 alternate;
+            transition: width 2s, height 2s ,transform 2s;
+        }
+        .box2:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        @keyframes wj{
+           from{
+               width: 200px;
+               height: 200px;
+           }
+            to{
+                bottom: 200px;
+                right: 400px;
+            }
+            }
+        .box3{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 350px ;
+            background: url(nav-img/hww-small.png) no-repeat center ;
+            animation: hww 5s 3 alternate;
+            transition: width 2s, height 2s ,transform 2s;
+        }
+        .box3:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        @keyframes hww {
+            from {
+                width: 200px;
+                height: 200px;
+            }
+            to {
+                top: 200px;
+                left: 0px; ;
+            }
+        }
+        .box4{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 750px;
+            background: url(nav-img/fy-small.png);
+            animation:fy 5s 3 alternate;
+            transition: width 2s, height 2s ,transform 2s;
+        }
+        .box4:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        @keyframes fy {
+            from{
+                width: 200px;
+                height: 200px;
+            }
+            to {
+                top: 440px;
+                left: 900px;
+            }
+        }
+        .box6{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 1100px;
+            background: url(nav-img/wsz-small.png);
+            animation:wsz 5s 3 alternate;
+            transition: width 2s, height 2s ,transform 2s;
+        }
+        .box6:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        @keyframes wsz {
+            from{
+                width: 200px;
+                height: 200px;
+            }
+            to {
+                top: 440px;
+                left:300px;
+            }
+        }
+        .box7{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: url(nav-img/xcc-small.png);
+            animation:xcc 5s 3 alternate;
+        }
+        .box7:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        @keyframes xcc {
+            from{
+                width: 200px;
+                height: 200px;
+            }
+            to {
+                bottom: 300px;
+                left:600px;
+            }
+        }
+        .box8{
+               width: 200px;
+               height: 200px;
+               position: absolute;
+               bottom: 0;
+               left: 350px;
+               background: url(nav-img/xcc1-small.png);
+               animation:xc 5s 3 alternate;
+            transition: width 2s, height 2s ,transform 2s;
+           }
+        .box8:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        @keyframes xc {
+            from{
+                width: 200px;
+                height: 200px;
+            }
+            to {
+                bottom: 500px;
+                left: 1000px;
+            }
+        }
+        .box9{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: 0;
+            left: 750px;
+            background: url(nav-img/wxt-small.png);
+            animation:wxt 5s 3 alternate;
+            transition: width 2s, height 2s ,transform 2s;
+        }
+        .box9:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        @keyframes wxt {
+            from{
+                width: 200px;
+                height: 200px;
+            }
+            to {
+                bottom: 500px;
+                left: 200px;
+            }
+        }
+        .box5 {
+            font-size: 16px;
+            font-family: "Microsoft Yahei", "\\5B8B体", Tahoma, sans-serif;
+            color: deepskyblue;
+            width: 500px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            /*background: yellowgreen;*/
+            opacity: 0;
+            animation: wz 5s forwards ;
+        }
+        @keyframes wz {
+            from {
+                opacity: 0;
+                
+            }
+            to{
+                opacity: 1;
+                top: 50%;
+                left: 35%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box6"></div>
+    <div class="box7"></div>
+    <div class="box8"></div>
+    <div class="box9"></div>
+    <div class="box5"> 那些遗落在某个角落里的记忆，早已随着时间的流逝消失的无影无踪。原来光阴就是这般流淌着。
+        清浅时光，岁月静好。就让我们在关于时间流逝的句子里，找寻时间的步伐，追逐时间的痕迹。
+        寂静安心，不忘初心。一起来欣赏吧！ <a href="file:///D:/%E6%97%B6%E5%85%89%E7%95%99%E5%BD%B1/mainpage.html">点击进入</a></div>
+</div>
+
+
+<audio autoplay loop>
+    <source src="videos/赵海洋%20-%20我在那一角落患过伤风.mp3"/>
+</audio>
+</body>
+</html>

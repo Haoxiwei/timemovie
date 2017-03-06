@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		
+	</style>
+	
+</head>
+<body>
+
+		<script>
+		  // var start = function (a) {
+		  // 	return alert ( a )
+		  // }
+		  // start(11)
+
+
+		// var a = event => console.log( '你就是傻逼');
+		// a()
+		// var a  = name => this.name = name;
+		// console.log(a("你爸爸"))
+		 // a("你爸爸");
+		// var div = document.getElementById( 'div' ) ;
+
+		// // div.onclick = function (event) {
+		// // 	alert('a')
+		// // }
+
+		// div.onclick = event => console.log(this)
+
+		// function a (event){
+		// 		console.log(this)
+		// 		var ti = this;
+		// 		(function b (n) {
+
+		// 			console.log ( ti === this);
+		// 			console.log( this );
+		// 			console.log(ti )
+		// 		})();
+
+		// }
+		// a();
+		// var arr = "我去你麻痹s"
+
+		// arr.forEach( function (value){
+		// 	console.log(value)
+		// })
+		// for(var value of arr ) {
+		// 	document.write (value +"</br>")
+		// }
+
+
+		// function foo (){
+		// 	alert("nimabi")
+		// }
+		// foo()
+		 // var foo  =  new Function (alert("Nimabi"))
+		 // var fn  =  new Function( "num" ,'num2 ', ' return (num + num2)  ' ) ;
+		 // console.log (fn(1,2))
+		 // console.log(typeof fn)
+		// var a =  (Math.random()+50)*255;
+		// console.log(a)
+
+
+
+	// 		function a (age , gender , name ) {
+	// 			this.age = age
+	// 			this.gender = gender
+	// 			this.name = name
+	// }
+	// 	a.prototype.play = function (){
+	// 		return   '大家好，我叫' +  this.name + '  我是个' + this.gender +'  人' + '  我今年   ' + this.age
+	// 	}
+	// 		var fuyi = new a(19,'男','fuyi');
+	// 		console.log (fuyi.play());
+			
+
+			function Car(model, year, miles) {     
+				 this.model = model
+			     this.year = year
+			 	 this.miles = miles  
+			 	 this.output= function () {        
+
+			 		return  this.model + "走了" + this.miles + "公里"  
+			     }
+			 } 
+	
+	var tom= new Car("大叔", 2009, 20000) 
+
+	// var dudu= new Car("Dudu", 2010, 5000)
+	console.log(tom.output()) 
+	// console.log(dudu.output())
+
+// 		function a (age , gender , name ) {
+// 			if (!(this instanceof a )){
+// 				return new a (age,gender,name)
+// 			}
+// 				this.age = age
+// 				this.gender = gender
+// 				this.name = name
+// }	
+
+// 		var fy = new a(19,'男','fy')
+// 		var hw = a(20,'男','hww')
+// 		console.log (fy);
+// 		console.log (hw);
+
+		</script>
+	</body>
+</html>
